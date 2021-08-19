@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #E35435 url("images/overlay.png");
+			background: #E35435;
 			color: #fff;
 		}
 
@@ -2002,7 +2002,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #E35435 url("images/overlay.png");
+			background: #E35435;
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 			text-align: justify;
@@ -2010,7 +2010,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style1 .title {
-				background: #E35435 url("images/overlay.png");
+				background: #E35435;
 				color: #fff;
 			}
 
@@ -2675,7 +2675,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #242730 url("images/overlay.png");
+				background: #222222;
 				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
 			}
 
