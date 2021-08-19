@@ -2005,6 +2005,8 @@ input, select, textarea {
 			background: #e97770 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
+			text-align: justify;
+
 		}
 
 			.wrapper.style1 .title {
