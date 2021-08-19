@@ -2028,11 +2028,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #dedede url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #dedede url("images/overlay.png");
 				color: #484d55;
 			}
 
@@ -2269,6 +2269,10 @@ input, select, textarea {
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 			font-size: 25px;
+		}
+
+		#highlights .highlight p {
+			color: #222222;
 		}
 
 /* Main */
