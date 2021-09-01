@@ -1747,7 +1747,7 @@ input, select, textarea {
 				width: 200px;
 				position: relative;
 				padding: 15px;
-				color: #1ECD97;
+				color: #E35435;
 				cursor: pointer;
 				text-align: center;
 				text-transform: uppercase;
@@ -1756,7 +1756,7 @@ input, select, textarea {
 				border-radius: 4px;
 				font-weight: 600;
 				overflow: hidden;
-				border: 2px solid #1ECD97;
+				border: 2px solid #E35435;
 				text-decoration: none;
 			  }
 			  
@@ -1768,7 +1768,7 @@ input, select, textarea {
 			  
 			  .btn-fill:after {
 				content: '';
-				background: #1ECD97;
+				background: #E35435;
 				position: absolute;
 				top: 0; left: 0;
 				height: 100%;
@@ -1797,7 +1797,7 @@ input, select, textarea {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				background: #1ECD97;
+				background: #E35435;
 			  }
 			  
 			  /* Animation */
