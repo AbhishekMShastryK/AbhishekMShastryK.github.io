@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@magic/format": "^0.0.60"
+  },
+  "scripts": {
+    "format": "f -w",
+    "format:check": "f"
+  }
+}
