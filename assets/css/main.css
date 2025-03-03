@@ -3221,3 +3221,51 @@ ul.actions.special {
     height: auto;
   }
 }
+
+/* Social Media Icons - Perfect Centering */
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  align-items: center; /* Aligns icons vertically */
+  gap: 15px; /* Space between icons */
+  margin: 15px auto; /* Ensures it's centered */
+  padding: 0; /* Remove extra padding */
+}
+
+/* Individual Social Icon Styling */
+.social-icons a {
+  font-size: 24px; /* Uniform size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Consistent circular size */
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333; /* Default background */
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Social Media Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.1);
+  background-color: #e35435; /* Highlight color */
+}
+
+/* Fix Offset Issue on Mobile */
+@media screen and (max-width: 768px) {
+  .social-icons {
+      flex-wrap: wrap; /* Stack icons if needed */
+      justify-content: left; /* Ensure centering */
+      margin: 10px auto; /* Reset margin */
+      gap: 10px; /* Less gap for smaller screens */
+  }
+
+  .social-icons a {
+      width: 35px; /* Slightly smaller for mobile */
+      height: 35px;
+      font-size: 20px;
+  }
+}
+
