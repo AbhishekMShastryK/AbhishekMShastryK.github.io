@@ -157,6 +157,7 @@ select,
 textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
+  appearance: none;
   -ms-appearance: none;
   appearance: none;
 }
@@ -1622,6 +1623,7 @@ form textarea {
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   -webkit-appearance: none;
+  appearance: none;
   display: block;
   border: 0;
   background: #eee;
@@ -2191,7 +2193,6 @@ ul.actions.special {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 1.5em;
 }
 
 #logo h1 {
@@ -3129,4 +3130,94 @@ ul.actions.special {
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: #222222;
+}
+
+/* Project Box Style */
+.project-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Interests Section */
+.interest-box {
+  background: #fff; /* White background for contrast */
+  border: 1px solid #ddd;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  color: #111 !important; /* Ensures text is always dark */
+}
+
+.interest-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color: #e35435 !important; /* Always dark */
+}
+
+.interest-box a {
+  color: #e35435 !important; /* Ensures links are visible */
+  text-decoration: none;
+}
+
+.interest-box a:hover {
+  color: #e35435; /* Adds a hover effect for the link */
+}
+
+.interest-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Interest Images */
+.interest-image {
+  width: 250px; /* Set fixed width */
+  height: 250px; /* Set height equal to width (square) */
+  object-fit: cover; /* Ensures images are cropped properly to fill the square */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  border: 5px solid #111; /* Keeps border styling */
+  transition: transform 0.3s ease;
+}
+
+.interest-box:hover .interest-image {
+  transform: scale(1.05);
+}
+
+/* Mobile-Friendly Design */
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-4 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .interest-box {
+    width: 100%;
+    padding: 1.2em;
+  }
+
+  .interest-image {
+    max-width: 100%;
+    height: auto;
+  }
 }

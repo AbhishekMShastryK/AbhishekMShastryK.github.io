@@ -1,9 +1,3 @@
-/*
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 ;(function ($) {
   var $window = $(window),
     $body = $('body')
@@ -57,3 +51,35 @@
       visibleClass: 'navPanel-visible',
     })
 })(jQuery)
+
+$(document).ready(function () {
+  // Smooth scrolling for navigation links
+  $('nav a, .scroll-link').on('click', function (event) {
+    // Check if the link has a valid hash (e.g., #home, #projects, etc.)
+    if (this.hash !== '') {
+      event.preventDefault()
+      var hash = this.hash
+
+      // Animate scrolling to the section with easing effect
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top - 50, // Adjust the offset if needed
+        },
+        800, // Speed in milliseconds (800ms for smooth effect)
+        'swing',
+      )
+    }
+  })
+})
+
+document.addEventListener('DOMContentLoaded', function () {
+  new Typed('#typing-text', {
+    strings: ['Engineer', 'Full-Stack Developer', 'Tech Enthusiast'],
+    typeSpeed: 50, // Speed of typing
+    backSpeed: 50, // Speed of deleting text
+    backDelay: 1000, // Pause before deleting
+    loop: true, // Infinite loop
+    showCursor: true, // Shows blinking cursor
+    cursorChar: '|', // Cursor style
+  })
+})
