@@ -1,9 +1,11 @@
 {
   "devDependencies": {
-    "@magic/format": "^0.0.60"
+    "@magic/format": "^0.0.60",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "3.5.3"
   },
   "scripts": {
-    "format": "f -w",
-    "format:check": "f"
+    "format": "prettier --write ."
   }
 }

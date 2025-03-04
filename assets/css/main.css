@@ -1,6 +1,6 @@
-@import url('fontawesome-all.min.css');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900');
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,300');
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700,300");
 
 /*
 	Escape Velocity by HTML5 UP
@@ -129,7 +129,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -195,7 +195,7 @@ body,
 input,
 textarea,
 select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   color: #919499;
   font-size: 14pt;
@@ -1613,9 +1613,9 @@ form label {
   margin: 0.25em 0 0.5em 0;
 }
 
-form input[type='text'],
-form input[type='email'],
-form input[type='password'],
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
 form select,
 form textarea {
   -moz-transition: all 0.25s ease-in-out;
@@ -1633,16 +1633,16 @@ form textarea {
   padding: 0.75em 1em 0.75em 1em;
 }
 
-form input[type='text']:focus,
-form input[type='email']:focus,
-form input[type='password']:focus,
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
 form select:focus,
 form textarea:focus {
   background: #f8f8f8;
 }
 
-form input[type='text'],
-form input[type='email'] input[type='password'] {
+form input[type="text"],
+form input[type="email"] input[type="password"] {
   line-height: 1em;
 }
 
@@ -1722,9 +1722,9 @@ form ::-moz-focus-inner {
 
 /* Button */
 
-input[type='button'],
-input[type='submit'],
-input[type='reset'],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
 button,
 .button {
   -moz-transition: all 0.25s ease-in-out;
@@ -1749,51 +1749,51 @@ button,
   line-height: 4em;
 }
 
-input[type='button']:hover,
-input[type='submit']:hover,
-input[type='reset']:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
 button:hover,
 .button:hover {
   background-color: #c13619;
 }
 
-input[type='button'].large,
-input[type='submit'].large,
-input[type='reset'].large,
+input[type="button"].large,
+input[type="submit"].large,
+input[type="reset"].large,
 button.large,
 .button.large {
   font-size: 1em;
   min-width: 14em;
 }
 
-input[type='button'].style1,
-input[type='submit'].style1,
-input[type='reset'].style1,
+input[type="button"].style1,
+input[type="submit"].style1,
+input[type="reset"].style1,
 button.style1,
 .button.style1 {
   background: #e35435;
   color: #fff;
 }
 
-input[type='button'].style1:hover,
-input[type='submit'].style1:hover,
-input[type='reset'].style1:hover,
+input[type="button"].style1:hover,
+input[type="submit"].style1:hover,
+input[type="reset"].style1:hover,
 button.style1:hover,
 .button.style1:hover {
   background-color: #c13619;
 }
 
-input[type='button'].style1:active,
-input[type='submit'].style1:active,
-input[type='reset'].style1:active,
+input[type="button"].style1:active,
+input[type="submit"].style1:active,
+input[type="reset"].style1:active,
 button.style1:active,
 .button.style1:active {
   background-color: #e35435;
 }
 
-input[type='button'].style2,
-input[type='submit'].style2,
-input[type='reset'].style2,
+input[type="button"].style2,
+input[type="submit"].style2,
+input[type="reset"].style2,
 button.style2,
 .button.style2 {
   background: none;
@@ -1801,42 +1801,42 @@ button.style2,
   box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 }
 
-input[type='button'].style2:hover,
-input[type='submit'].style2:hover,
-input[type='reset'].style2:hover,
+input[type="button"].style2:hover,
+input[type="submit"].style2:hover,
+input[type="reset"].style2:hover,
 button.style2:hover,
 .button.style2:hover {
   box-shadow: inset 0px 0px 2px 0px #606167;
 }
 
-input[type='button'].style2:active,
-input[type='submit'].style2:active,
-input[type='reset'].style2:active,
+input[type="button"].style2:active,
+input[type="submit"].style2:active,
+input[type="reset"].style2:active,
 button.style2:active,
 .button.style2:active {
   box-shadow: inset 0px 0px 2px 0px #202127;
 }
 
-input[type='button'].style3,
-input[type='submit'].style3,
-input[type='reset'].style3,
+input[type="button"].style3,
+input[type="submit"].style3,
+input[type="reset"].style3,
 button.style3,
 .button.style3 {
-  background: #2f333b url('images/overlay.png');
+  background: #2f333b url("images/overlay.png");
   color: #fff;
 }
 
-input[type='button'].style3:hover,
-input[type='submit'].style3:hover,
-input[type='reset'].style3:hover,
+input[type="button"].style3:hover,
+input[type="submit"].style3:hover,
+input[type="reset"].style3:hover,
 button.style3:hover,
 .button.style3:hover {
   background-color: #3f434b;
 }
 
-input[type='button'].style3:active,
-input[type='submit'].style3:active,
-input[type='reset'].style3:active,
+input[type="button"].style3:active,
+input[type="submit"].style3:active,
+input[type="reset"].style3:active,
 button.style3:active,
 .button.style3:active {
   background-color: #1f232b;
@@ -1956,7 +1956,7 @@ ul.actions.special {
 .feature-list h3:before {
   display: block;
   color: #fff;
-  background: #2f333b url('images/overlay.png');
+  background: #2f333b url("images/overlay.png");
   border-radius: 2.5em;
   text-align: center;
   width: 2.5em;
@@ -1992,7 +1992,7 @@ ul.actions.special {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
@@ -2010,7 +2010,7 @@ ul.actions.special {
 }
 
 .icon.brands:before {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
 }
 
 /* Box */
@@ -2076,13 +2076,13 @@ ul.actions.special {
 }
 
 .wrapper .title:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -38px;
   left: -35px;
   width: 35px;
   height: 38px;
-  background: url('images/shadow.png');
+  background: url("images/shadow.png");
 }
 
 .wrapper .title:after {
@@ -2090,13 +2090,13 @@ ul.actions.special {
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
-  content: '';
+  content: "";
   position: absolute;
   bottom: -38px;
   right: -35px;
   width: 35px;
   height: 38px;
-  background: url('images/shadow.png');
+  background: url("images/shadow.png");
 }
 
 .wrapper.style1 {
@@ -2133,11 +2133,11 @@ ul.actions.special {
 }
 
 .wrapper.style3 {
-  background: #dedede url('images/overlay.png');
+  background: #dedede url("images/overlay.png");
 }
 
 .wrapper.style3 .title {
-  background: #dedede url('images/overlay.png');
+  background: #dedede url("images/overlay.png");
   color: #484d55;
 }
 
@@ -2174,7 +2174,7 @@ ul.actions.special {
 }
 
 #header:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -2217,25 +2217,29 @@ ul.actions.special {
 /* Nav */
 
 #nav {
-  position: absolute;
-  display: block;
-  top: 2.5em;
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
-  text-align: center;
+  background: #222222; /* Background color */
+  z-index: 1000;
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #nav > ul {
-  display: inline-block;
-  border-radius: 0.35em;
-  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-  padding: 0 1.5em 0 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 #nav > ul > li {
   display: inline-block;
   text-align: center;
-  padding: 0 1.5em 0 1.5em;
+  padding: 2px 20px;
 }
 
 #nav > ul > li > ul {
@@ -2257,7 +2261,7 @@ ul.actions.special {
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  transition: color 0.3s ease-in-out;
   outline: 0;
 }
 
@@ -2268,6 +2272,10 @@ ul.actions.special {
 #nav > ul > li.active > a,
 #nav > ul > li.active > span {
   color: #fff;
+}
+
+#nav > ul > li > a:hover {
+  color: #e35435;
 }
 
 .dropotron {
@@ -2412,52 +2420,52 @@ ul.actions.special {
   border-top-color: rgba(255, 255, 255, 0.05);
 }
 
-#footer form input[type='text'],
-#footer form input[type='email'],
-#footer form input[type='password'],
+#footer form input[type="text"],
+#footer form input[type="email"],
+#footer form input[type="password"],
 #footer form select,
 #footer form textarea {
   background: #ccc;
   box-shadow: none;
 }
 
-#footer form input[type='text']:focus,
-#footer form input[type='email']:focus,
-#footer form input[type='password']:focus,
+#footer form input[type="text"]:focus,
+#footer form input[type="email"]:focus,
+#footer form input[type="password"]:focus,
 #footer form select:focus,
 #footer form textarea:focus {
   background: #fff;
 }
 
-#footer input[type='button'],
-#footer input[type='submit'],
-#footer input[type='reset'],
+#footer input[type="button"],
+#footer input[type="submit"],
+#footer input[type="reset"],
 #footer button,
 #footer .button {
   color: #fff;
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
 }
 
-#footer input[type='button']:hover,
-#footer input[type='submit']:hover,
-#footer input[type='reset']:hover,
+#footer input[type="button"]:hover,
+#footer input[type="submit"]:hover,
+#footer input[type="reset"]:hover,
 #footer button:hover,
 #footer .button:hover {
   color: #fff;
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
 }
 
-#footer input[type='button']:active,
-#footer input[type='submit']:active,
-#footer input[type='reset']:active,
+#footer input[type="button"]:active,
+#footer input[type="submit"]:active,
+#footer input[type="reset"]:active,
 #footer button:active,
 #footer .button:active {
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
 }
 
-#footer input[type='button'].style2:active,
-#footer input[type='submit'].style2:active,
-#footer input[type='reset'].style2:active,
+#footer input[type="button"].style2:active,
+#footer input[type="submit"].style2:active,
+#footer input[type="reset"].style2:active,
 #footer button.style2:active,
 #footer .button.style2:active {
   box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
@@ -2491,7 +2499,7 @@ ul.actions.special {
 }
 
 #footer .feature-list h3:before {
-  background: #3d4249 url('images/overlay.png');
+  background: #3d4249 url("images/overlay.png");
 }
 
 /* Copyright */
@@ -2744,7 +2752,7 @@ ul.actions.special {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
 
@@ -2754,7 +2762,7 @@ ul.actions.special {
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
     text-decoration: none;
-    content: '\f0c9';
+    content: "\f0c9";
     font-size: 14px;
     position: absolute;
     top: 6px;
@@ -2925,9 +2933,9 @@ ul.actions.special {
 
   /* Button */
 
-  input[type='button'],
-  input[type='submit'],
-  input[type='reset'],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
   button,
   .button {
     display: block;
@@ -3022,8 +3030,9 @@ ul.actions.special {
   #logo h1 {
     font-size: 1.5em;
     letter-spacing: 0.2em;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+      Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   #logo h2 {
@@ -3150,6 +3159,11 @@ ul.actions.special {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
+.project-box p {
+  font-size: 18px;
+  text-align: left;
+}
+
 /* Interests Section */
 .interest-box {
   background: #fff; /* White background for contrast */
@@ -3244,7 +3258,9 @@ ul.actions.special {
   background-color: #333; /* Default background */
   color: white;
   text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
 }
 
 /* Social Media Hover Effect */
@@ -3256,16 +3272,204 @@ ul.actions.special {
 /* Fix Offset Issue on Mobile */
 @media screen and (max-width: 768px) {
   .social-icons {
-      flex-wrap: wrap; /* Stack icons if needed */
-      justify-content: left; /* Ensure centering */
-      margin: 10px auto; /* Reset margin */
-      gap: 10px; /* Less gap for smaller screens */
+    flex-wrap: wrap; /* Stack icons if needed */
+    justify-content: left; /* Ensure centering */
+    margin: 10px auto; /* Reset margin */
+    gap: 10px; /* Less gap for smaller screens */
   }
 
   .social-icons a {
-      width: 35px; /* Slightly smaller for mobile */
-      height: 35px;
-      font-size: 20px;
+    width: 35px; /* Slightly smaller for mobile */
+    height: 35px;
+    font-size: 20px;
   }
 }
 
+/* Timeline Container */
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 1px; /* Adjust if you want it higher/lower */
+  left: 17px; /* Aligns with icon center */
+  width: 2px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Timeline Items */
+.timeline li {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 60px; /* Space for icon */
+}
+
+/* Timeline Icons */
+.timeline-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #e35435;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  font-size: 16px;
+  z-index: 1;
+}
+.timeline-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Timeline Content */
+.timeline-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+/* Description (Job Responsibilities) */
+.timeline-content p {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 10px; /* Reduce gap above text */
+  line-height: 1.4;
+}
+
+/* Overall Experience Section */
+#experience {
+  background: #222222;
+  color: #eee;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 6em;
+}
+
+#experience .title {
+  background: #222222;
+  color: #eee;
+}
+
+/* Experience Box - Simpler Shadow */
+.experience-box {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  /* Decrease padding for a smaller box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: none; /* or use a minimal shadow if preferred */
+  font-size: 16px;
+  color: #fff;
+  width: 80%;
+  margin: 40px auto 0 auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.experience-box:hover {
+  transform: scale(1.02);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Left side: Company & Location */
+.experience-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+/* Company Name (Top Left) */
+.experience-company {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4px; /* Small gap before location */
+  line-height: 1.2;
+}
+
+.experience-job-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 2px; /* Keep spacing balanced */
+  line-height: 1.2;
+}
+
+/* Location (Below Company Name) */
+.experience-location {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 4px; /* Reduce space between location & job description */
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+/* Date (Top Right) */
+.experience-date {
+  font-size: 16px;
+  color: #e35435; /* Highlighted in red */
+  text-align: right;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.experience-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #e35435;
+  margin-bottom: 0.3em; /* Gap between number and the text */
+}
+
+.experience-box p {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+/* Responsive Tweaks */
+@media screen and (max-width: 768px) {
+  .timeline li {
+    padding-left: 50px;
+  }
+  .timeline::before {
+    left: 12px;
+    bottom: 12px;
+  }
+  .timeline-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .experience-box {
+    margin-top: 30px;
+  }
+}
