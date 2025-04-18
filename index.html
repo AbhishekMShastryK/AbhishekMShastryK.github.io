@@ -638,7 +638,7 @@
         <div class="title">Resume</div>
         <div class="container" style="text-align: center; margin-top: 30px">
           <a
-            href="resume/AbhishekMShastryK_v5.3.pdf"
+            href="resume/AbhishekMShastryK_v5.4.pdf"
             class="button style1"
             target="_blank"
             >View Resume</a
@@ -741,18 +741,10 @@
           </div>
           <div id="copyright">
             <ul>
-              <li>&copy; 2025 Abhishek Shastry</li>
+              <li>&copy; <span id="year"></span> Abhishek Shastry</li>
               <li>All rights reserved</li>
             </ul>
           </div>
-        </div>
-
-        <div style="text-align: center; margin-bottom: -104px">
-          <img
-            src="images/india_skyline.jpg"
-            alt=""
-            style="max-width: 100%; height: auto"
-          />
         </div>
       </section>
     </div>
@@ -765,5 +757,8 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
