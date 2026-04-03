@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   new Typed("#typing-text", {
-    strings: ["Engineer", "Full-Stack Developer", "Tech Enthusiast"],
+    strings: ["Engineer", "Developer", "Tech Enthusiast"],
     typeSpeed: 50, // Speed of typing
     backSpeed: 50, // Speed of deleting text
     backDelay: 1000, // Pause before deleting
